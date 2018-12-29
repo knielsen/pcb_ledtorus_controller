@@ -30,8 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:w_analog
-LIBS:w_device
 LIBS:pcb_ledtorus_controller-cache
 EELAYER 26 0
 EELAYER END
@@ -215,7 +213,7 @@ U 1 1 5C27B068
 P 2650 4550
 F 0 "P5" H 2650 4800 50  0000 C CNN
 F 1 "CONN_3X2" V 2650 4600 40  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch1.27mm" H 2650 4550 60  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 2650 4550 60  0001 C CNN
 F 3 "" H 2650 4550 60  0000 C CNN
 	1    2650 4550
 	1    0    0    -1  

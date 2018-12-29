@@ -30,8 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:w_analog
-LIBS:w_device
 LIBS:pcb_ledtorus_controller-cache
 EELAYER 26 0
 EELAYER END
@@ -402,7 +400,7 @@ U 1 1 5C284D89
 P 1700 4100
 F 0 "J1" V 1571 4331 50  0000 L CNN
 F 1 "CONN_01X04" V 1850 3900 50  0000 L CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch1.27mm" H 1700 4100 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 1700 4100 50  0001 C CNN
 F 3 "" H 1700 4100 50  0001 C CNN
 	1    1700 4100
 	0    1    1    0   

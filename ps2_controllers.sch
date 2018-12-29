@@ -30,8 +30,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:w_analog
-LIBS:w_device
 LIBS:pcb_ledtorus_controller-cache
 EELAYER 26 0
 EELAYER END
