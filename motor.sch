@@ -1,0 +1,850 @@
+EESchema Schematic File Version 2
+LIBS:pcb_ledtorus_controller-rescue
+LIBS:knielsenlib
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:w_analog
+LIBS:w_device
+LIBS:pcb_ledtorus_controller-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 4
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L L6234 U?
+U 1 1 5C284CB0
+P 3100 3350
+F 0 "U?" H 3000 2750 60  0000 C CNN
+F 1 "L6234" H 3100 4000 60  0000 C CNN
+F 2 "" H 3100 3300 60  0000 C CNN
+F 3 "" H 3100 3300 60  0000 C CNN
+	1    3100 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR?
+U 1 1 5C284CB7
+P 4050 4100
+F 0 "#PWR?" H 4050 4100 30  0001 C CNN
+F 1 "GND" H 4050 4030 30  0001 C CNN
+F 2 "" H 4050 4100 60  0000 C CNN
+F 3 "" H 4050 4100 60  0000 C CNN
+	1    4050 4100
+	1    0    0    -1  
+$EndComp
+Text Label 3800 3050 0    50   ~ 0
+m_sense1_raw
+Text Label 3800 3150 0    50   ~ 0
+m_sense2_raw
+$Comp
+L Csmall C?
+U 1 1 5C284CC8
+P 2300 3950
+F 0 "C?" H 2325 4000 30  0000 L CNN
+F 1 "1u" H 2325 3900 30  0000 L CNN
+F 2 "" H 2300 3950 60  0000 C CNN
+F 3 "" H 2300 3950 60  0000 C CNN
+	1    2300 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR?
+U 1 1 5C284CCF
+P 2300 4150
+F 0 "#PWR?" H 2300 4150 30  0001 C CNN
+F 1 "GND" H 2300 4080 30  0001 C CNN
+F 2 "" H 2300 4150 60  0000 C CNN
+F 3 "" H 2300 4150 60  0000 C CNN
+	1    2300 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Csmall C?
+U 1 1 5C284CD5
+P 3950 2800
+F 0 "C?" H 3975 2850 30  0000 L CNN
+F 1 "10n" H 3975 2750 30  0000 L CNN
+F 2 "" H 3950 2800 60  0000 C CNN
+F 3 "" H 3950 2800 60  0000 C CNN
+	1    3950 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Csmall C?
+U 1 1 5C284CDC
+P 4750 2700
+F 0 "C?" H 4775 2750 30  0000 L CNN
+F 1 "220n" H 4775 2650 30  0000 L CNN
+F 2 "" H 4750 2700 60  0000 C CNN
+F 3 "" H 4750 2700 60  0000 C CNN
+	1    4750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR?
+U 1 1 5C284CE3
+P 4750 2900
+F 0 "#PWR?" H 4750 2900 30  0001 C CNN
+F 1 "GND" H 4750 2830 30  0001 C CNN
+F 2 "" H 4750 2900 60  0000 C CNN
+F 3 "" H 4750 2900 60  0000 C CNN
+	1    4750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Csmall C?
+U 1 1 5C284CE9
+P 3350 2400
+F 0 "C?" H 3375 2450 30  0000 L CNN
+F 1 "100n" H 3375 2350 30  0000 L CNN
+F 2 "" H 3350 2400 60  0000 C CNN
+F 3 "" H 3350 2400 60  0000 C CNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR?
+U 1 1 5C284CF0
+P 3250 2600
+F 0 "#PWR?" H 3250 2600 30  0001 C CNN
+F 1 "GND" H 3250 2530 30  0001 C CNN
+F 2 "" H 3250 2600 60  0000 C CNN
+F 3 "" H 3250 2600 60  0000 C CNN
+	1    3250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R?
+U 1 1 5C284CF6
+P 4550 3050
+F 0 "R?" V 4630 3050 40  0000 C CNN
+F 1 "0R22" V 4557 3051 40  0000 C CNN
+F 2 "" V 4480 3050 30  0000 C CNN
+F 3 "" H 4550 3050 30  0000 C CNN
+	1    4550 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R?
+U 1 1 5C284CFD
+P 4550 3150
+F 0 "R?" V 4450 3150 40  0000 C CNN
+F 1 "0R22" V 4557 3151 40  0000 C CNN
+F 2 "" V 4480 3150 30  0000 C CNN
+F 3 "" H 4550 3150 30  0000 C CNN
+	1    4550 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR?
+U 1 1 5C284D04
+P 4800 3250
+F 0 "#PWR?" H 4800 3250 30  0001 C CNN
+F 1 "GND" H 4800 3180 30  0001 C CNN
+F 2 "" H 4800 3250 60  0000 C CNN
+F 3 "" H 4800 3250 60  0000 C CNN
+	1    4800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R?
+U 1 1 5C284D0A
+P 1900 2450
+F 0 "R?" V 1980 2450 40  0000 C CNN
+F 1 "47k" V 1907 2451 40  0000 C CNN
+F 2 "" V 1830 2450 30  0000 C CNN
+F 3 "" H 1900 2450 30  0000 C CNN
+	1    1900 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R?
+U 1 1 5C284D11
+P 1750 2450
+F 0 "R?" V 1830 2450 40  0000 C CNN
+F 1 "47k" V 1757 2451 40  0000 C CNN
+F 2 "" V 1680 2450 30  0000 C CNN
+F 3 "" H 1750 2450 30  0000 C CNN
+	1    1750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R?
+U 1 1 5C284D18
+P 1600 2450
+F 0 "R?" V 1680 2450 40  0000 C CNN
+F 1 "47k" V 1607 2451 40  0000 C CNN
+F 2 "" V 1530 2450 30  0000 C CNN
+F 3 "" H 1600 2450 30  0000 C CNN
+	1    1600 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR?
+U 1 1 5C284D1F
+P 2150 2300
+F 0 "#PWR?" H 2150 2300 30  0001 C CNN
+F 1 "GND" H 2150 2230 30  0001 C CNN
+F 2 "" H 2150 2300 60  0000 C CNN
+F 3 "" H 2150 2300 60  0000 C CNN
+	1    2150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L DUAL_SWITCHING_DIODE D?
+U 1 1 5C284D25
+P 4050 2450
+F 0 "D?" H 4150 2350 40  0000 C CNN
+F 1 "BAV99LT3G" H 4050 2550 40  0000 C CNN
+F 2 "" H 4050 2450 60  0000 C CNN
+F 3 "" H 4050 2450 60  0000 C CNN
+	1    4050 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L cap C?
+U 1 1 5C284D2C
+P 3150 2450
+F 0 "C?" H 3000 2550 30  0000 L CNN
+F 1 "100u" H 3000 2400 30  0000 L CNN
+F 2 "" H 3150 2450 60  0000 C CNN
+F 3 "" H 3150 2450 60  0000 C CNN
+	1    3150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R?
+U 1 1 5C284D33
+P 3800 1450
+F 0 "R?" V 3880 1450 40  0000 C CNN
+F 1 "0" V 3807 1451 40  0000 C CNN
+F 2 "" V 3730 1450 30  0000 C CNN
+F 3 "" H 3800 1450 30  0000 C CNN
+	1    3800 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R?
+U 1 1 5C284D3A
+P 3800 1650
+F 0 "R?" V 3880 1650 40  0000 C CNN
+F 1 "0" V 3807 1651 40  0000 C CNN
+F 2 "" V 3730 1650 30  0000 C CNN
+F 3 "" H 3800 1650 30  0000 C CNN
+	1    3800 1650
+	0    -1   -1   0   
+$EndComp
+Text Notes 3450 1800 0    30   ~ 0
+0 ohm resistors, connecting TM4C\nanalog input to motor R_sense
+Text Label 3200 1450 0    30   ~ 0
+m_sense1_raw
+Text Label 3200 1650 0    30   ~ 0
+m_sense2_raw
+Text Label 4075 2900 0    30   ~ 0
+vboot
+Text Label 3775 2800 0    30   ~ 0
+vcp
+Text Label 2325 3850 0    30   ~ 0
+vref
+Wire Wire Line
+	3750 3550 4050 3550
+Wire Wire Line
+	4050 3550 4050 3650
+Wire Wire Line
+	4050 3650 4050 3750
+Wire Wire Line
+	4050 3750 4050 3850
+Wire Wire Line
+	4050 3850 4050 4050
+Wire Wire Line
+	4050 4050 4050 4100
+Wire Wire Line
+	3750 3650 4050 3650
+Connection ~ 4050 3650
+Wire Wire Line
+	3750 3750 4050 3750
+Connection ~ 4050 3750
+Wire Wire Line
+	3750 3850 4050 3850
+Connection ~ 4050 3850
+Wire Wire Line
+	3750 3300 3900 3300
+Wire Wire Line
+	3900 3300 3900 3400
+Wire Wire Line
+	4050 3400 4050 3350
+Connection ~ 3900 3400
+Wire Wire Line
+	3750 3050 4300 3050
+Wire Wire Line
+	3750 3150 4300 3150
+Wire Wire Line
+	1300 2800 2450 2800
+Wire Wire Line
+	1300 2900 1900 2900
+Wire Wire Line
+	1900 2900 2450 2900
+Wire Wire Line
+	1300 3000 1650 3000
+Wire Wire Line
+	1650 3000 2450 3000
+Wire Wire Line
+	1300 3150 2450 3150
+Wire Wire Line
+	1300 3250 1750 3250
+Wire Wire Line
+	1750 3250 2450 3250
+Wire Wire Line
+	1300 3350 1750 3350
+Wire Wire Line
+	1750 3350 2450 3350
+Wire Wire Line
+	1300 3500 2450 3500
+Wire Wire Line
+	1300 3600 1600 3600
+Wire Wire Line
+	1600 3600 2450 3600
+Wire Wire Line
+	1300 3700 1850 3700
+Wire Wire Line
+	1850 3700 2450 3700
+Wire Wire Line
+	2450 3850 2300 3850
+Wire Wire Line
+	2300 4050 2300 4150
+Wire Wire Line
+	3750 2900 4550 2900
+Wire Wire Line
+	4550 2900 4550 2450
+Wire Wire Line
+	4450 2450 4550 2450
+Wire Wire Line
+	4550 2450 4750 2450
+Wire Wire Line
+	4750 2450 4750 2600
+Wire Wire Line
+	4750 2800 4750 2900
+Connection ~ 3350 2500
+Wire Wire Line
+	3150 2300 3350 2300
+Wire Wire Line
+	3350 2300 3550 2300
+Wire Wire Line
+	3550 2250 3550 2300
+Wire Wire Line
+	3550 2300 3550 2450
+Connection ~ 3350 2300
+Connection ~ 3550 2300
+Wire Wire Line
+	3150 2500 3250 2500
+Wire Wire Line
+	3250 2500 3350 2500
+Wire Wire Line
+	3250 2500 3250 2600
+Connection ~ 3250 2500
+Wire Wire Line
+	4800 3050 4800 3150
+Wire Wire Line
+	4800 3150 4800 3250
+Connection ~ 4800 3150
+Connection ~ 4050 3400
+Connection ~ 4050 3550
+Wire Wire Line
+	1850 3700 1850 3900
+Wire Wire Line
+	1750 3350 1750 3900
+Wire Wire Line
+	1650 3900 1650 3000
+Wire Wire Line
+	1600 2200 1750 2200
+Wire Wire Line
+	1750 2200 1900 2200
+Wire Wire Line
+	1900 2200 2150 2200
+Connection ~ 1750 2200
+Wire Wire Line
+	2150 2200 2150 2300
+Connection ~ 1900 2200
+Wire Wire Line
+	1900 2700 1900 2900
+Wire Wire Line
+	1750 2700 1750 3250
+Wire Wire Line
+	1600 2700 1600 3600
+Wire Wire Line
+	3750 2800 3850 2800
+Wire Wire Line
+	4050 2800 4050 2650
+Wire Wire Line
+	3550 2450 3650 2450
+Connection ~ 4550 2450
+Wire Wire Line
+	3150 4050 4050 4050
+Connection ~ 4050 4050
+Wire Wire Line
+	3150 2300 3150 2350
+Wire Wire Line
+	4050 1650 4150 1650
+Wire Wire Line
+	4050 1450 4150 1450
+Wire Wire Line
+	3200 1450 3550 1450
+Wire Wire Line
+	3200 1650 3550 1650
+Wire Wire Line
+	3750 3400 3900 3400
+Wire Wire Line
+	3900 3400 4050 3400
+$Comp
+L CONN_01X04 J?
+U 1 1 5C284D89
+P 1700 4100
+F 0 "J?" V 1571 4331 50  0000 L CNN
+F 1 "CONN_01X04" V 1850 3900 50  0000 L CNN
+F 2 "" H 1700 4100 50  0001 C CNN
+F 3 "" H 1700 4100 50  0001 C CNN
+	1    1700 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 5C284D92
+P 4050 3350
+F 0 "#PWR?" H 4050 3200 50  0001 C CNN
+F 1 "+24V" H 4200 3450 50  0000 C CNN
+F 2 "" H 4050 3350 50  0001 C CNN
+F 3 "" H 4050 3350 50  0001 C CNN
+	1    4050 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L +24V #PWR?
+U 1 1 5C284D98
+P 3550 2250
+F 0 "#PWR?" H 3550 2100 50  0001 C CNN
+F 1 "+24V" H 3565 2427 50  0000 C CNN
+F 2 "" H 3550 2250 50  0001 C CNN
+F 3 "" H 3550 2250 50  0001 C CNN
+	1    3550 2250
+	1    0    0    -1  
+$EndComp
+Text GLabel 4150 1450 2    45   Output ~ 0
+m_sense1
+Text GLabel 4150 1650 2    45   Output ~ 0
+m_sense2
+Wire Wire Line
+	1550 3900 1550 3800
+Wire Wire Line
+	1550 3800 1300 3800
+Text GLabel 1300 2800 0    45   Input ~ 0
+m_in1
+Text GLabel 1300 3150 0    45   Input ~ 0
+m_in2
+Text GLabel 1300 3500 0    45   Input ~ 0
+m_in3
+Text GLabel 1300 2900 0    45   Input ~ 0
+m_en1
+Text GLabel 1300 3250 0    45   Input ~ 0
+m_en2
+Text GLabel 1300 3600 0    45   Input ~ 0
+m_en3
+Connection ~ 1850 3700
+Connection ~ 1600 3600
+Connection ~ 1750 3350
+Connection ~ 1750 3250
+Connection ~ 1650 3000
+Connection ~ 1900 2900
+Wire Wire Line
+	6250 2050 6600 2050
+Text Label 6250 2050 0    60   ~ 0
+phase_a
+Text Label 6250 2650 0    60   ~ 0
+phase_b
+Text Label 6250 3250 0    60   ~ 0
+phase_c
+Text Label 6250 3850 0    60   ~ 0
+neutral
+$Comp
+L R R?
+U 1 1 5C2899BD
+P 6750 2050
+F 0 "R?" V 6650 2050 50  0000 C CNN
+F 1 "5k" V 6750 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6680 2050 50  0001 C CNN
+F 3 "" H 6750 2050 50  0000 C CNN
+	1    6750 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899C4
+P 7450 2050
+F 0 "R?" V 7350 2050 50  0000 C CNN
+F 1 "5k" V 7450 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7380 2050 50  0001 C CNN
+F 3 "" H 7450 2050 50  0000 C CNN
+	1    7450 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899CB
+P 8150 2050
+F 0 "R?" V 8050 2050 50  0000 C CNN
+F 1 "2k2" V 8150 2050 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8080 2050 50  0001 C CNN
+F 3 "" H 8150 2050 50  0000 C CNN
+	1    8150 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899D2
+P 6750 2650
+F 0 "R?" V 6650 2650 50  0000 C CNN
+F 1 "5k" V 6750 2650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6680 2650 50  0001 C CNN
+F 3 "" H 6750 2650 50  0000 C CNN
+	1    6750 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899D9
+P 7450 2650
+F 0 "R?" V 7350 2650 50  0000 C CNN
+F 1 "5k" V 7450 2650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7380 2650 50  0001 C CNN
+F 3 "" H 7450 2650 50  0000 C CNN
+	1    7450 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899E0
+P 8150 2650
+F 0 "R?" V 8050 2650 50  0000 C CNN
+F 1 "2k2" V 8150 2650 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8080 2650 50  0001 C CNN
+F 3 "" H 8150 2650 50  0000 C CNN
+	1    8150 2650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899E7
+P 6750 3250
+F 0 "R?" V 6650 3250 50  0000 C CNN
+F 1 "5k" V 6750 3250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6680 3250 50  0001 C CNN
+F 3 "" H 6750 3250 50  0000 C CNN
+	1    6750 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899EE
+P 7450 3250
+F 0 "R?" V 7350 3250 50  0000 C CNN
+F 1 "5k" V 7450 3250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7380 3250 50  0001 C CNN
+F 3 "" H 7450 3250 50  0000 C CNN
+	1    7450 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899F5
+P 8150 3250
+F 0 "R?" V 8050 3250 50  0000 C CNN
+F 1 "2k2" V 8150 3250 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8080 3250 50  0001 C CNN
+F 3 "" H 8150 3250 50  0000 C CNN
+	1    8150 3250
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C2899FC
+P 6750 3850
+F 0 "R?" V 6650 3850 50  0000 C CNN
+F 1 "5k" V 6750 3850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 6680 3850 50  0001 C CNN
+F 3 "" H 6750 3850 50  0000 C CNN
+	1    6750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C289A03
+P 7450 3850
+F 0 "R?" V 7350 3850 50  0000 C CNN
+F 1 "5k" V 7450 3850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 7380 3850 50  0001 C CNN
+F 3 "" H 7450 3850 50  0000 C CNN
+	1    7450 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5C289A0A
+P 8150 3850
+F 0 "R?" V 8050 3850 50  0000 C CNN
+F 1 "2k2" V 8150 3850 50  0000 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM10mm" V 8080 3850 50  0001 C CNN
+F 3 "" H 8150 3850 50  0000 C CNN
+	1    8150 3850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6250 2650 6600 2650
+Wire Wire Line
+	6900 2050 7150 2050
+Wire Wire Line
+	7150 2050 7300 2050
+Wire Wire Line
+	7600 2050 7800 2050
+Wire Wire Line
+	7800 2050 8000 2050
+Wire Wire Line
+	8300 2050 8450 2050
+Wire Wire Line
+	8450 2050 8450 2650
+Wire Wire Line
+	8450 2650 8450 3250
+Wire Wire Line
+	8450 3250 8450 3850
+Wire Wire Line
+	8450 3850 8450 4250
+$Comp
+L GND #PWR?
+U 1 1 5C289A16
+P 8450 4250
+F 0 "#PWR?" H 8450 4000 50  0001 C CNN
+F 1 "GND" H 8350 4250 50  0000 C CNN
+F 2 "" H 8450 4250 50  0000 C CNN
+F 3 "" H 8450 4250 50  0000 C CNN
+	1    8450 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 8450 3850
+Wire Wire Line
+	8300 3250 8450 3250
+Connection ~ 8450 3250
+Wire Wire Line
+	8300 2650 8450 2650
+Connection ~ 8450 2650
+Wire Wire Line
+	6900 2650 7150 2650
+Wire Wire Line
+	7150 2650 7300 2650
+Wire Wire Line
+	6900 3250 7150 3250
+Wire Wire Line
+	7150 3250 7300 3250
+Wire Wire Line
+	6900 3850 7150 3850
+Wire Wire Line
+	7150 3850 7300 3850
+Wire Wire Line
+	7600 2650 7800 2650
+Wire Wire Line
+	7800 2650 8000 2650
+Wire Wire Line
+	7600 3250 7800 3250
+Wire Wire Line
+	7800 3250 8000 3250
+Wire Wire Line
+	7600 3850 7800 3850
+Wire Wire Line
+	7800 3850 8000 3850
+$Comp
+L ZENERsmall D?
+U 1 1 5C289A27
+P 7150 2250
+F 0 "D?" V 7103 2321 50  0000 L CNN
+F 1 "7V" V 7196 2321 50  0000 L CNN
+F 2 "Discret:D4" H 7150 2250 50  0001 C CNN
+F 3 "" H 7150 2250 50  0000 C CNN
+	1    7150 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L ZENERsmall D?
+U 1 1 5C289A2E
+P 7150 2850
+F 0 "D?" V 7103 2921 50  0000 L CNN
+F 1 "7V" V 7196 2921 50  0000 L CNN
+F 2 "Discret:D4" H 7150 2850 50  0001 C CNN
+F 3 "" H 7150 2850 50  0000 C CNN
+	1    7150 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L ZENERsmall D?
+U 1 1 5C289A35
+P 7150 3450
+F 0 "D?" V 7103 3521 50  0000 L CNN
+F 1 "7V" V 7196 3521 50  0000 L CNN
+F 2 "Discret:D4" H 7150 3450 50  0001 C CNN
+F 3 "" H 7150 3450 50  0000 C CNN
+	1    7150 3450
+	0    1    1    0   
+$EndComp
+$Comp
+L ZENERsmall D?
+U 1 1 5C289A3C
+P 7150 4050
+F 0 "D?" V 7103 4121 50  0000 L CNN
+F 1 "7V" V 7196 4121 50  0000 L CNN
+F 2 "Discret:D4" H 7150 4050 50  0001 C CNN
+F 3 "" H 7150 4050 50  0000 C CNN
+	1    7150 4050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 2050 7150 2150
+Connection ~ 7150 2050
+Wire Wire Line
+	7150 2350 7150 2450
+Wire Wire Line
+	7150 2650 7150 2750
+Connection ~ 7150 2650
+Wire Wire Line
+	7150 2950 7150 3050
+Wire Wire Line
+	7150 3250 7150 3350
+Connection ~ 7150 3250
+Wire Wire Line
+	7150 3550 7150 3650
+Wire Wire Line
+	7150 3850 7150 3950
+Connection ~ 7150 3850
+Wire Wire Line
+	7150 4150 7150 4250
+$Comp
+L GND #PWR?
+U 1 1 5C289A4F
+P 7150 2450
+F 0 "#PWR?" H 7150 2200 50  0001 C CNN
+F 1 "GND" H 7050 2450 50  0000 C CNN
+F 2 "" H 7150 2450 50  0000 C CNN
+F 3 "" H 7150 2450 50  0000 C CNN
+	1    7150 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C289A55
+P 7150 3050
+F 0 "#PWR?" H 7150 2800 50  0001 C CNN
+F 1 "GND" H 7050 3050 50  0000 C CNN
+F 2 "" H 7150 3050 50  0000 C CNN
+F 3 "" H 7150 3050 50  0000 C CNN
+	1    7150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C289A5B
+P 7150 3650
+F 0 "#PWR?" H 7150 3400 50  0001 C CNN
+F 1 "GND" H 7050 3650 50  0000 C CNN
+F 2 "" H 7150 3650 50  0000 C CNN
+F 3 "" H 7150 3650 50  0000 C CNN
+	1    7150 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 5C289A61
+P 7150 4250
+F 0 "#PWR?" H 7150 4000 50  0001 C CNN
+F 1 "GND" H 7050 4250 50  0000 C CNN
+F 2 "" H 7150 4250 50  0000 C CNN
+F 3 "" H 7150 4250 50  0000 C CNN
+	1    7150 4250
+	1    0    0    -1  
+$EndComp
+Connection ~ 7800 2050
+Connection ~ 7800 2650
+Connection ~ 7800 3250
+Connection ~ 7800 3850
+Text Notes 6050 1800 0    120  ~ 24
+Voltage dividers
+Wire Wire Line
+	8450 3850 8300 3850
+Wire Wire Line
+	6250 3850 6600 3850
+Wire Wire Line
+	6250 3250 6600 3250
+Text GLabel 7900 1850 2    45   Output ~ 0
+bemf_a
+Wire Wire Line
+	7800 2050 7800 1850
+Wire Wire Line
+	7800 1850 7900 1850
+Text GLabel 7900 2450 2    45   Output ~ 0
+bemf_b
+Text GLabel 7900 3050 2    45   Output ~ 0
+bemf_c
+Text GLabel 7900 3650 2    45   Output ~ 0
+bemf_n
+Wire Wire Line
+	7800 2650 7800 2450
+Wire Wire Line
+	7800 2450 7900 2450
+Wire Wire Line
+	7800 3250 7800 3050
+Wire Wire Line
+	7800 3050 7900 3050
+Wire Wire Line
+	7800 3850 7800 3650
+Wire Wire Line
+	7800 3650 7900 3650
+Text Label 1300 3800 0    45   ~ 0
+neutral
+Text Label 1300 3700 0    45   ~ 0
+phase_c
+Text Label 1300 3350 0    45   ~ 0
+phase_b
+Text Label 1300 3000 0    45   ~ 0
+phase_a
+$EndSCHEMATC

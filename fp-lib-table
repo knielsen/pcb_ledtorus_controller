@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name knielsenlib)(type Legacy)(uri $HOME/devel/kicad/library/knielsenlib.mod)(options "")(descr ""))
+)

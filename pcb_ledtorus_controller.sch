@@ -1,0 +1,1034 @@
+EESchema Schematic File Version 2
+LIBS:pcb_ledtorus_controller-rescue
+LIBS:knielsenlib
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:w_analog
+LIBS:w_device
+LIBS:pcb_ledtorus_controller-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 4
+Title ""
+Date "18 oct 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L +3.3V-RESCUE-tiva_pcb1 #PWR03
+U 1 1 519E88F0
+P 4450 1350
+F 0 "#PWR03" H 4450 1310 30  0001 C CNN
+F 1 "+3.3V" H 4450 1460 30  0000 C CNN
+F 2 "" H 4450 1350 60  0001 C CNN
+F 3 "" H 4450 1350 60  0001 C CNN
+	1    4450 1350
+	-1   0    0    1   
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R1
+U 1 1 519E88DC
+P 4700 1200
+F 0 "R1" V 4780 1200 50  0000 C CNN
+F 1 "10k" V 4700 1200 40  0000 C CNN
+F 2 "" H 4700 1200 60  0001 C CNN
+F 3 "" H 4700 1200 60  0001 C CNN
+	1    4700 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR04
+U 1 1 519E88B7
+P 7100 3050
+F 0 "#PWR04" H 7100 3050 30  0001 C CNN
+F 1 "GND" H 7100 2980 30  0001 C CNN
+F 2 "" H 7100 3050 60  0001 C CNN
+F 3 "" H 7100 3050 60  0001 C CNN
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR05
+U 1 1 519E8894
+P 8050 2350
+F 0 "#PWR05" H 8050 2350 30  0001 C CNN
+F 1 "GND" H 8050 2280 30  0001 C CNN
+F 2 "" H 8050 2350 60  0001 C CNN
+F 3 "" H 8050 2350 60  0001 C CNN
+	1    8050 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C6
+U 1 1 519E884C
+P 8200 1950
+F 0 "C6" H 8250 2050 50  0000 L CNN
+F 1 "10u" H 8250 1850 50  0000 L CNN
+F 2 "" H 8200 1950 60  0001 C CNN
+F 3 "" H 8200 1950 60  0001 C CNN
+	1    8200 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C5
+U 1 1 519E884B
+P 7900 1950
+F 0 "C5" H 7950 2050 50  0000 L CNN
+F 1 "100n" H 7950 1850 50  0000 L CNN
+F 2 "" H 7900 1950 60  0001 C CNN
+F 3 "" H 7900 1950 60  0001 C CNN
+	1    7900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C1
+U 1 1 519E8846
+P 6700 1950
+F 0 "C1" H 6750 2050 50  0000 L CNN
+F 1 "100n" H 6750 1850 50  0000 L CNN
+F 2 "" H 6700 1950 60  0001 C CNN
+F 3 "" H 6700 1950 60  0001 C CNN
+	1    6700 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C2
+U 1 1 519E8845
+P 7000 1950
+F 0 "C2" H 7050 2050 50  0000 L CNN
+F 1 "100n" H 7050 1850 50  0000 L CNN
+F 2 "" H 7000 1950 60  0001 C CNN
+F 3 "" H 7000 1950 60  0001 C CNN
+	1    7000 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C3
+U 1 1 519E8844
+P 7300 1950
+F 0 "C3" H 7350 2050 50  0000 L CNN
+F 1 "100n" H 7350 1850 50  0000 L CNN
+F 2 "" H 7300 1950 60  0001 C CNN
+F 3 "" H 7300 1950 60  0001 C CNN
+	1    7300 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C4
+U 1 1 519E8843
+P 7600 1950
+F 0 "C4" H 7650 2050 50  0000 L CNN
+F 1 "100n" H 7650 1850 50  0000 L CNN
+F 2 "" H 7600 1950 60  0001 C CNN
+F 3 "" H 7600 1950 60  0001 C CNN
+	1    7600 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C12
+U 1 1 519E87E6
+P 7250 2600
+F 0 "C12" H 7300 2700 50  0000 L CNN
+F 1 "2.2u" H 7300 2500 50  0000 L CNN
+F 2 "" H 7250 2600 60  0001 C CNN
+F 3 "" H 7250 2600 60  0001 C CNN
+	1    7250 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C11
+U 1 1 519E87E3
+P 6950 2600
+F 0 "C11" H 7000 2700 50  0000 L CNN
+F 1 "1u" H 7000 2500 50  0000 L CNN
+F 2 "" H 6950 2600 60  0001 C CNN
+F 3 "" H 6950 2600 60  0001 C CNN
+	1    6950 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C10
+U 1 1 519E87E0
+P 6650 2600
+F 0 "C10" H 6700 2700 50  0000 L CNN
+F 1 "100n" H 6700 2500 50  0000 L CNN
+F 2 "" H 6650 2600 60  0001 C CNN
+F 3 "" H 6650 2600 60  0001 C CNN
+	1    6650 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C9
+U 1 1 519E87DB
+P 6350 2600
+F 0 "C9" H 6400 2700 50  0000 L CNN
+F 1 "100n" H 6400 2500 50  0000 L CNN
+F 2 "" H 6350 2600 60  0001 C CNN
+F 3 "" H 6350 2600 60  0001 C CNN
+	1    6350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR06
+U 1 1 519E8798
+P 4100 2800
+F 0 "#PWR06" H 4100 2800 30  0001 C CNN
+F 1 "GND" H 4100 2730 30  0001 C CNN
+F 2 "" H 4100 2800 60  0001 C CNN
+F 3 "" H 4100 2800 60  0001 C CNN
+	1    4100 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C8
+U 1 1 519E7E18
+P 4700 2350
+F 0 "C8" H 4750 2450 50  0000 L CNN
+F 1 "10p" H 4750 2250 50  0000 L CNN
+F 2 "" H 4700 2350 60  0001 C CNN
+F 3 "" H 4700 2350 60  0001 C CNN
+	1    4700 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C-RESCUE-tiva_pcb1 C7
+U 1 1 519E7E13
+P 4100 2350
+F 0 "C7" H 4150 2450 50  0000 L CNN
+F 1 "10p" H 4150 2250 50  0000 L CNN
+F 2 "" H 4100 2350 60  0001 C CNN
+F 3 "" H 4100 2350 60  0001 C CNN
+	1    4100 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL-RESCUE-tiva_pcb1 X1
+U 1 1 519E7DC9
+P 4400 1850
+F 0 "X1" H 4400 2000 60  0000 C CNN
+F 1 "NX5032GA-16MHz" H 4400 1700 60  0000 C CNN
+F 2 "" H 4400 1850 60  0001 C CNN
+F 3 "" H 4400 1850 60  0001 C CNN
+	1    4400 1850
+	1    0    0    -1  
+$EndComp
+Text Label 6200 1750 0    30   ~ 0
++3.3v
+$Comp
+L +3.3V-RESCUE-tiva_pcb1 #PWR07
+U 1 1 519E7D3A
+P 6350 1750
+F 0 "#PWR07" H 6350 1710 30  0001 C CNN
+F 1 "+3.3V" H 6350 1860 30  0000 C CNN
+F 2 "" H 6350 1750 60  0001 C CNN
+F 3 "" H 6350 1750 60  0001 C CNN
+	1    6350 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR08
+U 1 1 519E7D09
+P 5000 2350
+F 0 "#PWR08" H 5000 2350 30  0001 C CNN
+F 1 "GND" H 5000 2280 30  0001 C CNN
+F 2 "" H 5000 2350 60  0001 C CNN
+F 3 "" H 5000 2350 60  0001 C CNN
+	1    5000 2350
+	1    0    0    -1  
+$EndComp
+Text Label 5050 1950 0    30   ~ 0
+gnd
+$Comp
+L +3.3V-RESCUE-tiva_pcb1 #PWR09
+U 1 1 519E7C97
+P 8850 4000
+F 0 "#PWR09" H 8850 3960 30  0001 C CNN
+F 1 "+3.3V" H 8850 4110 30  0000 C CNN
+F 2 "" H 8850 4000 60  0001 C CNN
+F 3 "" H 8850 4000 60  0001 C CNN
+	1    8850 4000
+	1    0    0    -1  
+$EndComp
+Text Label 9650 4300 1    30   ~ 0
+reset
+Text Label 5100 1450 2    30   ~ 0
+reset
+Text Label 9550 4300 1    30   ~ 0
+u0rx
+Text Label 9450 4300 1    30   ~ 0
+u0tx
+Text Label 9350 4300 1    30   ~ 0
+tdi
+Text Label 9250 4300 1    30   ~ 0
+tdo
+Text Label 9150 4300 1    30   ~ 0
+tms
+Text Label 9050 4300 1    30   ~ 0
+tck
+Text Label 8950 4300 1    30   ~ 0
+gnd
+Text Label 2850 2150 0    30   ~ 0
+gsclk2
+Text Label 2850 2100 0    30   ~ 0
+nrf_cs
+Text Label 2850 2050 0    30   ~ 0
+ssi1clk
+Text Label 2850 2000 0    30   ~ 0
+ssi1tx
+Text Label 2850 1950 0    30   ~ 0
+ssi1rx
+Text Label 2850 1850 0    30   ~ 0
+hall2
+Text Label 2850 1800 0    30   ~ 0
+hall3
+Text Label 2850 1750 0    30   ~ 0
+usb_dp
+Text Label 2850 1700 0    30   ~ 0
+usb_dm
+Text Label 2850 1650 0    30   ~ 0
+bemf_n
+Text Label 2850 1600 0    30   ~ 0
+sout3
+Text Label 2850 1550 0    30   ~ 0
+mode3
+Text Label 2850 1500 0    30   ~ 0
+sclk3
+Text Label 2850 1400 0    30   ~ 0
+sin2
+Text Label 2850 1350 0    30   ~ 0
+sout2
+Text Label 2850 1300 0    30   ~ 0
+gsclk3
+Text Label 2850 1200 0    30   ~ 0
+nrf_ce
+Text Label 2850 1050 0    30   ~ 0
+nrf_irq
+Text Label 1800 2200 0    30   ~ 0
+blank3
+Text Label 1800 2150 0    30   ~ 0
+xlat3
+Text Label 1800 2000 0    30   ~ 0
+m_sense1
+Text Label 1800 1950 0    30   ~ 0
+m_sense2
+Text Label 1800 1850 0    30   ~ 0
+mode2
+Text Label 1800 1700 0    30   ~ 0
+gsclk1
+Text Label 1800 1650 0    30   ~ 0
+tdo
+Text Label 1800 1600 0    30   ~ 0
+tdi
+Text Label 1800 1550 0    30   ~ 0
+tms
+Text Label 1800 1500 0    30   ~ 0
+tck
+Text Label 1800 1400 0    30   ~ 0
+user_led
+Text Label 1800 1350 0    30   ~ 0
+mode1
+Text Label 1800 1100 0    30   ~ 0
+u0tx
+Text Label 1800 1050 0    30   ~ 0
+u0rx
+$Comp
+L TM4C1230XXPM U1
+U 2 1 519E6EE8
+P 5600 1800
+F 0 "U1" H 5600 2350 60  0000 C CNN
+F 1 "TM4C1232XXPM" H 5600 1100 60  0000 C CNN
+F 2 "" H 5600 1800 60  0001 C CNN
+F 3 "" H 5600 1800 60  0001 C CNN
+	2    5600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L TM4C1232XXPM U1
+U 1 1 52820EA4
+P 2400 1650
+F 0 "U1" H 2400 2450 60  0000 C CNN
+F 1 "TM4C1232XXPM" H 2400 2350 60  0000 C CNN
+F 2 "" H 2400 1650 60  0000 C CNN
+F 3 "" H 2400 1650 60  0000 C CNN
+	1    2400 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L KNUSB U3
+U 1 1 52820F5D
+P 5700 4150
+F 0 "U3" H 5700 4150 60  0000 C CNN
+F 1 "KNUSB" H 5700 3450 60  0000 C CNN
+F 2 "" H 5700 4150 60  0000 C CNN
+F 3 "" H 5700 4150 60  0000 C CNN
+	1    5700 4150
+	1    0    0    -1  
+$EndComp
+Text Label 6150 4350 0    60   ~ 0
+usb_dm
+Text Label 6150 4450 0    60   ~ 0
+usb_dp
+NoConn ~ 6050 4550
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR011
+U 1 1 528212E4
+P 6750 4850
+F 0 "#PWR011" H 6750 4850 30  0001 C CNN
+F 1 "GND" H 6750 4780 30  0001 C CNN
+F 2 "" H 6750 4850 60  0000 C CNN
+F 3 "" H 6750 4850 60  0000 C CNN
+	1    6750 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L INDUCTOR-RESCUE-tiva_pcb1 L1
+U 1 1 52821449
+P 6450 4750
+F 0 "L1" V 6400 4750 40  0000 C CNN
+F 1 "30@100MHz" V 6550 4750 40  0000 C CNN
+F 2 "" H 6450 4750 60  0000 C CNN
+F 3 "" H 6450 4750 60  0000 C CNN
+	1    6450 4750
+	0    -1   -1   0   
+$EndComp
+Text Notes 7550 2600 0    60   ~ 0
+Place C12 as close\nas possible to pin 56
+$Comp
+L SWITCH_4PIN B1
+U 1 1 52821C0C
+P 4000 1050
+F 0 "B1" H 4007 1273 60  0000 C CNN
+F 1 "SWITCH_4PIN" H 3999 795 60  0000 C CNN
+F 2 "" H 4000 1050 60  0000 C CNN
+F 3 "" H 4000 1050 60  0000 C CNN
+	1    4000 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R6
+U 1 1 52821C36
+P 4700 1000
+F 0 "R6" V 4780 1000 40  0000 C CNN
+F 1 "100" V 4707 1001 40  0000 C CNN
+F 2 "" V 4630 1000 30  0000 C CNN
+F 3 "" H 4700 1000 30  0000 C CNN
+	1    4700 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR012
+U 1 1 52821FCD
+P 3650 1400
+F 0 "#PWR012" H 3650 1400 30  0001 C CNN
+F 1 "GND" H 3650 1330 30  0001 C CNN
+F 2 "" H 3650 1400 60  0000 C CNN
+F 3 "" H 3650 1400 60  0000 C CNN
+	1    3650 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Csmall C16
+U 1 1 52822245
+P 5150 1100
+F 0 "C16" H 5175 1150 30  0000 L CNN
+F 1 "10n" H 5175 1050 30  0000 L CNN
+F 2 "" H 5150 1100 60  0000 C CNN
+F 3 "" H 5150 1100 60  0000 C CNN
+	1    5150 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR013
+U 1 1 52822427
+P 5250 1200
+F 0 "#PWR013" H 5250 1200 30  0001 C CNN
+F 1 "GND" H 5250 1130 30  0001 C CNN
+F 2 "" H 5250 1200 60  0000 C CNN
+F 3 "" H 5250 1200 60  0000 C CNN
+	1    5250 1200
+	1    0    0    -1  
+$EndComp
+Text Label 2000 4650 0    40   ~ 0
+user_led
+$Comp
+L +3.3V-RESCUE-tiva_pcb1 #PWR016
+U 1 1 52824840
+P 2100 4150
+F 0 "#PWR016" H 2100 4110 30  0001 C CNN
+F 1 "+3.3V" H 2100 4260 30  0000 C CNN
+F 2 "" H 2100 4150 60  0001 C CNN
+F 3 "" H 2100 4150 60  0001 C CNN
+	1    2100 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR017
+U 1 1 52824846
+P 3600 4850
+F 0 "#PWR017" H 3600 4850 30  0001 C CNN
+F 1 "GND" H 3600 4780 30  0001 C CNN
+F 2 "" H 3600 4850 60  0001 C CNN
+F 3 "" H 3600 4850 60  0001 C CNN
+	1    3600 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R8
+U 1 1 5282484C
+P 2500 4650
+F 0 "R8" V 2580 4650 50  0000 C CNN
+F 1 "1k" V 2500 4650 50  0000 C CNN
+F 2 "" H 2500 4650 60  0001 C CNN
+F 3 "" H 2500 4650 60  0001 C CNN
+	1    2500 4650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R7
+U 1 1 52824852
+P 2500 4200
+F 0 "R7" V 2580 4200 50  0000 C CNN
+F 1 "1k" V 2500 4200 50  0000 C CNN
+F 2 "" H 2500 4200 60  0001 C CNN
+F 3 "" H 2500 4200 60  0001 C CNN
+	1    2500 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LED-RESCUE-tiva_pcb1 D2
+U 1 1 52824858
+P 3150 4650
+F 0 "D2" H 3150 4750 50  0000 C CNN
+F 1 "SML-211YTT86" H 3150 4550 50  0000 C CNN
+F 2 "" H 3150 4650 60  0001 C CNN
+F 3 "" H 3150 4650 60  0001 C CNN
+	1    3150 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED-RESCUE-tiva_pcb1 D1
+U 1 1 5282485E
+P 3150 4200
+F 0 "D1" H 3150 4300 50  0000 C CNN
+F 1 "SML-211UTT86" H 3150 4100 50  0000 C CNN
+F 2 "" H 3150 4200 60  0001 C CNN
+F 3 "" H 3150 4200 60  0001 C CNN
+	1    3150 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_4X2 P7
+U 1 1 52828676
+P 9850 1650
+F 0 "P7" H 9850 1900 50  0000 C CNN
+F 1 "CONN_4X2" V 9850 1650 40  0000 C CNN
+F 2 "" H 9850 1650 60  0000 C CNN
+F 3 "" H 9850 1650 60  0000 C CNN
+	1    9850 1650
+	1    0    0    1   
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR026
+U 1 1 52828A19
+P 9450 2000
+F 0 "#PWR026" H 9450 2000 30  0001 C CNN
+F 1 "GND" H 9450 1930 30  0001 C CNN
+F 2 "" H 9450 2000 60  0000 C CNN
+F 3 "" H 9450 2000 60  0000 C CNN
+	1    9450 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V-RESCUE-tiva_pcb1 #PWR027
+U 1 1 52828B59
+P 10250 2000
+F 0 "#PWR027" H 10250 1960 30  0001 C CNN
+F 1 "+3.3V" H 10250 2110 30  0000 C CNN
+F 2 "" H 10250 2000 60  0000 C CNN
+F 3 "" H 10250 2000 60  0000 C CNN
+	1    10250 2000
+	-1   0    0    1   
+$EndComp
+Text Label 9050 1700 0    60   ~ 0
+nrf_ce
+Text Label 10400 1700 0    60   ~ 0
+nrf_cs
+Text Label 9050 1600 0    60   ~ 0
+ssi1clk
+Text Label 10400 1600 0    60   ~ 0
+ssi1tx
+Text Label 9050 1500 0    60   ~ 0
+ssi1rx
+Text Label 10400 1500 0    60   ~ 0
+nrf_irq
+$Comp
+L CONN_9 P8
+U 1 1 5283505E
+P 9250 4700
+F 0 "P8" V 9200 4700 60  0000 C CNN
+F 1 "CONN_9" V 9300 4700 60  0000 C CNN
+F 2 "" H 9250 4700 60  0000 C CNN
+F 3 "" H 9250 4700 60  0000 C CNN
+	1    9250 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L GND-RESCUE-tiva_pcb1 #PWR035
+U 1 1 528351CE
+P 9050 4000
+F 0 "#PWR035" H 9050 4000 30  0001 C CNN
+F 1 "GND" H 9050 3930 30  0001 C CNN
+F 2 "" H 9050 4000 60  0000 C CNN
+F 3 "" H 9050 4000 60  0000 C CNN
+	1    9050 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R-RESCUE-tiva_pcb1 R17
+U 1 1 528B6632
+P 10850 1950
+F 0 "R17" V 10930 1950 40  0000 C CNN
+F 1 "47k" V 10857 1951 40  0000 C CNN
+F 2 "" V 10780 1950 30  0000 C CNN
+F 3 "" H 10850 1950 30  0000 C CNN
+	1    10850 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V-RESCUE-tiva_pcb1 #PWR041
+U 1 1 528B67BC
+P 10725 2200
+F 0 "#PWR041" H 10725 2160 30  0001 C CNN
+F 1 "+3.3V" H 10725 2310 30  0000 C CNN
+F 2 "" H 10725 2200 60  0000 C CNN
+F 3 "" H 10725 2200 60  0000 C CNN
+	1    10725 2200
+	1    0    0    -1  
+$EndComp
+Text Label 6100 2400 0    30   ~ 0
+vdcc
+Wire Wire Line
+	4950 1000 4950 1450
+Connection ~ 6950 2800
+Wire Wire Line
+	6350 2800 7250 2800
+Connection ~ 6650 2400
+Connection ~ 6050 2200
+Wire Wire Line
+	6050 2150 6050 2400
+Connection ~ 8050 2150
+Wire Wire Line
+	8050 2150 8050 2350
+Connection ~ 7600 2150
+Connection ~ 7000 2150
+Connection ~ 7900 1750
+Wire Wire Line
+	6050 1750 8200 1750
+Connection ~ 7300 1750
+Connection ~ 6700 1750
+Connection ~ 4700 1850
+Wire Wire Line
+	4700 1600 4700 2150
+Connection ~ 4100 2650
+Wire Wire Line
+	4100 2650 4700 2650
+Wire Wire Line
+	4700 2650 4700 2550
+Connection ~ 4100 1850
+Wire Wire Line
+	4100 1550 4100 2150
+Connection ~ 6150 1750
+Connection ~ 6150 1900
+Wire Wire Line
+	6150 1850 6050 1850
+Wire Wire Line
+	6150 1950 6050 1950
+Connection ~ 5000 2200
+Wire Wire Line
+	5000 2200 5150 2200
+Connection ~ 5000 2100
+Wire Wire Line
+	5000 2100 5150 2100
+Wire Wire Line
+	5000 1950 5000 2350
+Wire Wire Line
+	5000 1950 5150 1950
+Wire Wire Line
+	8850 4000 8850 4350
+Wire Wire Line
+	4950 1450 5150 1450
+Wire Wire Line
+	9650 4200 9650 4350
+Wire Wire Line
+	9550 4200 9550 4350
+Wire Wire Line
+	9450 4200 9450 4350
+Wire Wire Line
+	9350 4200 9350 4350
+Wire Wire Line
+	9250 4200 9250 4350
+Wire Wire Line
+	9150 4200 9150 4350
+Wire Wire Line
+	9050 4200 9050 4350
+Wire Wire Line
+	8950 3950 8950 4350
+Wire Wire Line
+	1750 1050 1950 1050
+Wire Wire Line
+	1750 1100 1950 1100
+Wire Wire Line
+	1650 1150 2050 1150
+Wire Wire Line
+	1550 1200 2050 1200
+Wire Wire Line
+	1450 1250 2050 1250
+Wire Wire Line
+	1550 1300 2050 1300
+Wire Wire Line
+	1750 1350 1950 1350
+Wire Wire Line
+	1750 1600 1950 1600
+Wire Wire Line
+	1750 1650 1950 1650
+Wire Wire Line
+	1750 1700 1950 1700
+Wire Wire Line
+	1500 1750 2050 1750
+Wire Wire Line
+	1450 1800 2050 1800
+Wire Wire Line
+	1750 1850 1950 1850
+Wire Wire Line
+	1500 1950 1950 1950
+Wire Wire Line
+	1450 2000 1950 2000
+Wire Wire Line
+	1500 2050 1950 2050
+Wire Wire Line
+	1600 2100 1950 2100
+Wire Wire Line
+	1750 2150 1950 2150
+Wire Wire Line
+	1750 2200 1950 2200
+Wire Wire Line
+	2800 2150 3000 2150
+Wire Wire Line
+	2800 2100 3000 2100
+Wire Wire Line
+	2800 2050 3000 2050
+Wire Wire Line
+	2800 2000 3000 2000
+Wire Wire Line
+	2800 1950 3000 1950
+Wire Wire Line
+	2800 1850 3000 1850
+Wire Wire Line
+	2800 1800 3000 1800
+Wire Wire Line
+	2800 1750 3000 1750
+Wire Wire Line
+	2800 1700 3000 1700
+Wire Wire Line
+	2800 1650 3000 1650
+Wire Wire Line
+	2800 1600 3000 1600
+Wire Wire Line
+	2800 1550 3000 1550
+Wire Wire Line
+	2800 1500 3000 1500
+Wire Wire Line
+	2800 1400 3000 1400
+Wire Wire Line
+	2800 1350 3000 1350
+Wire Wire Line
+	2800 1300 3000 1300
+Wire Wire Line
+	2800 1250 3100 1250
+Wire Wire Line
+	2800 1150 3000 1150
+Wire Wire Line
+	2800 1100 3000 1100
+Wire Wire Line
+	2800 1050 3000 1050
+Wire Wire Line
+	2500 2400 2500 2900
+Wire Wire Line
+	2450 2400 2450 2800
+Wire Wire Line
+	2400 2400 2400 2700
+Wire Wire Line
+	2350 2600 2350 2400
+Wire Wire Line
+	2300 2500 2300 2400
+Wire Wire Line
+	2000 2400 2250 2400
+Wire Wire Line
+	5150 2050 5000 2050
+Connection ~ 5000 2050
+Wire Wire Line
+	5000 2150 5150 2150
+Connection ~ 5000 2150
+Wire Wire Line
+	6150 2000 6050 2000
+Wire Wire Line
+	6150 1900 6050 1900
+Connection ~ 6150 1950
+Wire Wire Line
+	6150 1750 6150 2000
+Connection ~ 6150 1850
+Wire Wire Line
+	4100 1550 5150 1550
+Wire Wire Line
+	4100 2550 4100 2800
+Wire Wire Line
+	4700 1600 5150 1600
+Connection ~ 6350 1750
+Connection ~ 7000 1750
+Connection ~ 7600 1750
+Connection ~ 7300 2150
+Wire Wire Line
+	6700 2150 8200 2150
+Connection ~ 7900 2150
+Connection ~ 6350 2400
+Wire Wire Line
+	6050 2400 7250 2400
+Connection ~ 6950 2400
+Connection ~ 6650 2800
+Wire Wire Line
+	7100 2800 7100 3050
+Connection ~ 7100 2800
+Wire Wire Line
+	4450 1200 4450 1350
+Wire Wire Line
+	1750 1400 1950 1400
+Wire Wire Line
+	6050 4350 6600 4350
+Wire Wire Line
+	6050 4450 6600 4450
+Wire Wire Line
+	6050 4650 6750 4650
+Wire Wire Line
+	6050 4750 6150 4750
+Wire Wire Line
+	6750 4650 6750 4850
+Connection ~ 6750 4750
+Connection ~ 4950 1200
+Wire Wire Line
+	4450 1000 4350 1000
+Wire Wire Line
+	4350 900  4350 1200
+Wire Wire Line
+	4350 900  4200 900 
+Wire Wire Line
+	4350 1200 4200 1200
+Connection ~ 4350 1000
+Wire Wire Line
+	3800 900  3650 900 
+Wire Wire Line
+	3650 900  3650 1400
+Wire Wire Line
+	3800 1200 3650 1200
+Connection ~ 3650 1200
+Wire Wire Line
+	4950 1100 5050 1100
+Connection ~ 4950 1100
+Wire Wire Line
+	5250 1100 5250 1200
+Wire Wire Line
+	2100 4150 2100 4200
+Wire Wire Line
+	2100 4200 2250 4200
+Wire Wire Line
+	2750 4200 2950 4200
+Wire Wire Line
+	3600 4200 3600 4850
+Wire Wire Line
+	3600 4200 3350 4200
+Wire Wire Line
+	3350 4650 3600 4650
+Connection ~ 3600 4650
+Wire Wire Line
+	2750 4650 2950 4650
+Wire Wire Line
+	1950 4650 2250 4650
+Wire Wire Line
+	9450 1700 8900 1700
+Wire Wire Line
+	9450 1600 8900 1600
+Wire Wire Line
+	9450 1500 8900 1500
+Wire Wire Line
+	10250 1700 10850 1700
+Wire Wire Line
+	10250 1600 10850 1600
+Wire Wire Line
+	10250 1500 10850 1500
+Wire Wire Line
+	9450 1800 9450 2000
+Wire Wire Line
+	10250 1800 10250 2000
+Wire Wire Line
+	8950 3950 9050 3950
+Wire Wire Line
+	9050 3950 9050 4000
+Wire Wire Line
+	6050 4250 6600 4250
+Wire Wire Line
+	10850 2200 10725 2200
+Wire Wire Line
+	2800 1200 3000 1200
+$Sheet
+S 12250 1050 1500 1350
+U 5C2627D2
+F0 "Motor" 60
+F1 "motor.sch" 60
+$EndSheet
+$Sheet
+S 12300 2900 1450 1250
+U 5C262818
+F0 "PS2_Controllers" 60
+F1 "ps2_controllers.sch" 60
+$EndSheet
+$Sheet
+S 12350 4600 1400 1150
+U 5C274E52
+F0 "Power" 60
+F1 "power.sch" 60
+$EndSheet
+Text GLabel 6600 4250 2    60   Output ~ 0
+usb5v
+Wire Wire Line
+	6500 4250 6500 4150
+Connection ~ 6500 4250
+$Comp
+L PWR_FLAG #FLG?
+U 1 1 5C27C51D
+P 6500 4150
+F 0 "#FLG?" H 6500 4225 50  0001 C CNN
+F 1 "PWR_FLAG" H 6500 4328 50  0000 C CNN
+F 2 "" H 6500 4150 50  0001 C CNN
+F 3 "" H 6500 4150 50  0001 C CNN
+	1    6500 4150
+	1    0    0    -1  
+$EndComp
+Text GLabel 1450 1050 0    45   Output ~ 0
+ps2_clk
+Text GLabel 1450 1700 0    45   Input ~ 0
+ps2_ack
+Text GLabel 1450 1350 0    45   Output ~ 0
+ps2_cmd
+Text GLabel 1450 1800 0    45   Output ~ 0
+ps2_att1
+Text GLabel 1450 1250 0    45   Input ~ 0
+ps2_data
+Wire Wire Line
+	1950 1500 1750 1500
+Wire Wire Line
+	1750 1550 1950 1550
+Wire Wire Line
+	1450 1700 1500 1700
+Wire Wire Line
+	1500 1700 1500 1750
+Wire Wire Line
+	1550 1300 1550 1350
+Wire Wire Line
+	1550 1350 1450 1350
+Text GLabel 1450 1150 0    45   Output ~ 0
+ps2_att2
+Wire Wire Line
+	1650 1150 1650 1050
+Wire Wire Line
+	1650 1050 1450 1050
+Wire Wire Line
+	1550 1200 1550 1150
+Wire Wire Line
+	1550 1150 1450 1150
+Text GLabel 1450 1900 0    45   Input ~ 0
+m_sense1
+Text GLabel 1450 2000 0    45   Input ~ 0
+m_sense2
+Wire Wire Line
+	1500 1950 1500 1900
+Wire Wire Line
+	1500 1900 1450 1900
+Text GLabel 1450 2100 0    45   Input ~ 0
+bemf_a
+Text GLabel 1450 2200 0    45   Input ~ 0
+bemf_b
+Text GLabel 1450 2100 0    45   Input ~ 0
+bemf_a
+Text GLabel 3100 1250 2    45   Input ~ 0
+bemf_c
+Wire Wire Line
+	1500 2050 1500 2100
+Wire Wire Line
+	1500 2100 1450 2100
+Wire Wire Line
+	1600 2100 1600 2200
+Wire Wire Line
+	1600 2200 1450 2200
+Text GLabel 2000 2900 3    45   Output ~ 0
+m_in1
+Text GLabel 2100 2900 3    45   Output ~ 0
+m_in2
+Text GLabel 2200 2900 3    45   Output ~ 0
+m_in3
+Text GLabel 2300 2900 3    45   Output ~ 0
+m_en1
+Text GLabel 2400 2900 3    45   Output ~ 0
+m_en2
+Text GLabel 2500 2900 3    45   Output ~ 0
+m_en3
+Wire Wire Line
+	2450 2800 2400 2800
+Wire Wire Line
+	2400 2800 2400 2900
+Wire Wire Line
+	2000 2400 2000 2900
+Wire Wire Line
+	2300 2500 2100 2500
+Wire Wire Line
+	2100 2500 2100 2900
+Wire Wire Line
+	2350 2600 2200 2600
+Wire Wire Line
+	2200 2600 2200 2900
+Wire Wire Line
+	2400 2700 2300 2700
+Wire Wire Line
+	2300 2700 2300 2900
+$EndSCHEMATC
