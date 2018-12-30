@@ -977,4 +977,48 @@ F 3 "" H 4300 1700 50  0001 C CNN
 	1    4300 1700
 	-1   0    0    1   
 $EndComp
+$Comp
+L mounting_hole H1
+U 1 1 5C292E61
+P 7450 5550
+F 0 "H1" H 7531 5605 60  0000 L CNN
+F 1 "mounting_hole" H 7531 5495 60  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 7450 5550 60  0001 C CNN
+F 3 "" H 7450 5550 60  0000 C CNN
+	1    7450 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H3
+U 1 1 5C292F44
+P 7450 5750
+F 0 "H3" H 7531 5805 60  0000 L CNN
+F 1 "mounting_hole" H 7531 5695 60  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 7450 5750 60  0001 C CNN
+F 3 "" H 7450 5750 60  0000 C CNN
+	1    7450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H2
+U 1 1 5C292F9F
+P 7750 5550
+F 0 "H2" H 7831 5605 60  0000 L CNN
+F 1 "mounting_hole" H 7831 5495 60  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 7750 5550 60  0001 C CNN
+F 3 "" H 7750 5550 60  0000 C CNN
+	1    7750 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L mounting_hole H4
+U 1 1 5C293020
+P 7750 5750
+F 0 "H4" H 7831 5805 60  0000 L CNN
+F 1 "mounting_hole" H 7831 5695 60  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_4.3mm_M4" H 7750 5750 60  0001 C CNN
+F 3 "" H 7750 5750 60  0000 C CNN
+	1    7750 5750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -113,54 +113,10 @@ F 3 "" H 2500 3500 60  0000 C CNN
 	1    2500 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L LED D8
-U 1 1 5C262DAB
-P 4050 1550
-F 0 "D8" H 4050 1650 50  0000 C CNN
-F 1 "LED" H 4050 1450 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 4050 1550 60  0001 C CNN
-F 3 "" H 4050 1550 60  0000 C CNN
-	1    4050 1550
-	-1   0    0    -1  
-$EndComp
-$Comp
-L LED D9
-U 1 1 5C262DAC
-P 4950 1550
-F 0 "D9" H 4950 1650 50  0000 C CNN
-F 1 "LED" H 4950 1450 50  0000 C CNN
-F 2 "LEDs:LED_0805" H 4950 1550 60  0001 C CNN
-F 3 "" H 4950 1550 60  0000 C CNN
-	1    4950 1550
-	-1   0    0    -1  
-$EndComp
 Text Notes 1000 1325 0    120  ~ 24
 DualShock2, 1
 Text Notes 1000 3350 0    120  ~ 24
 DualShock2, 2
-$Comp
-L R R28
-U 1 1 5C262DAD
-P 4050 1800
-F 0 "R28" V 4130 1800 50  0000 C CNN
-F 1 "1k" V 4050 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 3980 1800 30  0001 C CNN
-F 3 "" H 4050 1800 30  0000 C CNN
-	1    4050 1800
-	0    1    1    0   
-$EndComp
-$Comp
-L R R29
-U 1 1 5C262DAE
-P 4950 1800
-F 0 "R29" V 5030 1800 50  0000 C CNN
-F 1 "1k" V 4950 1800 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805" V 4880 1800 30  0001 C CNN
-F 3 "" H 4950 1800 30  0000 C CNN
-	1    4950 1800
-	0    1    1    0   
-$EndComp
 $Comp
 L R R26
 U 1 1 5C262DAF
@@ -183,10 +139,6 @@ F 3 "" H 2050 3650 30  0000 C CNN
 	1    2050 3650
 	-1   0    0    1   
 $EndComp
-Text Label 4225 1550 0    60   ~ 0
-gpio1
-Text Label 5125 1550 0    60   ~ 0
-gpio2
 Text Label 5775 1950 0    60   ~ 0
 gpio1
 Text Label 5775 1550 0    60   ~ 0
@@ -227,17 +179,6 @@ F 3 "" H 2700 1750 30  0000 C CNN
 	1    2700 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L +3V3 #PWR031
-U 1 1 5C262DB5
-P 5375 1850
-F 0 "#PWR031" H 5375 1700 50  0001 C CNN
-F 1 "+3V3" H 5393 2023 50  0000 C CNN
-F 2 "" H 5375 1850 50  0000 C CNN
-F 3 "" H 5375 1850 50  0000 C CNN
-	1    5375 1850
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1500 1600 1700 1600
 Wire Wire Line
@@ -265,22 +206,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 4000 1600 4475
 Wire Wire Line
-	3900 1550 3900 1800
-Wire Wire Line
-	4800 1550 4800 1800
-Wire Wire Line
-	4200 1800 4300 1800
-Wire Wire Line
-	4300 1800 4300 1950
-Wire Wire Line
-	5100 1800 5175 1800
-Wire Wire Line
-	5175 1800 5175 1950
-Wire Wire Line
-	4200 1550 4500 1550
-Wire Wire Line
-	5100 1550 6050 1550
-Wire Wire Line
 	5750 1950 6050 1950
 Wire Wire Line
 	6650 1550 7000 1550
@@ -292,11 +217,6 @@ Connection ~ 7000 1950
 Wire Wire Line
 	6650 1750 7000 1750
 Connection ~ 7000 1750
-Wire Wire Line
-	4300 1950 5375 1950
-Wire Wire Line
-	5375 1950 5375 1850
-Connection ~ 5175 1950
 Text GLabel 1600 1800 2    45   Input ~ 0
 ps2_clk
 Text GLabel 1600 3700 2    45   Input ~ 0
@@ -396,14 +316,14 @@ Wire Wire Line
 	5600 1550 5600 1450
 Connection ~ 5600 1550
 Wire Wire Line
-	4500 1550 4500 2050
-Wire Wire Line
-	4500 2050 5750 2050
-Wire Wire Line
 	5750 2050 5750 1950
 Text GLabel 5600 1950 1    45   Output ~ 0
 gpio1
 Wire Wire Line
 	5600 1950 5600 2050
 Connection ~ 5600 2050
+Wire Wire Line
+	5600 1550 6050 1550
+Wire Wire Line
+	5600 2050 5750 2050
 $EndSCHEMATC
