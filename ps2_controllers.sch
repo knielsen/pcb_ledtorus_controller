@@ -141,7 +141,7 @@ F 3 "" H 2050 3650 30  0000 C CNN
 $EndComp
 Text Label 5775 1950 0    60   ~ 0
 gpio1
-Text Label 5775 1550 0    60   ~ 0
+Text Label 5750 1750 0    60   ~ 0
 gpio2
 $Comp
 L GND #PWR032
@@ -167,7 +167,6 @@ F 3 "" H 6350 1750 60  0000 C CNN
 	1    6350 1750
 	1    0    0    -1  
 $EndComp
-NoConn ~ 6050 1750
 $Comp
 L R R27
 U 1 1 5C262DB4
@@ -186,7 +185,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 2100 1600 2100
 Wire Wire Line
-	1500 2200 1800 2200
+	1500 2200 2000 2200
 Wire Wire Line
 	1500 2300 1700 2300
 Wire Wire Line
@@ -198,7 +197,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 3800 2150 3800
 Wire Wire Line
-	1500 4100 1800 4100
+	1500 4100 2000 4100
 Wire Wire Line
 	1600 2100 1600 2575
 Wire Wire Line
@@ -241,17 +240,17 @@ Connection ~ 2050 1900
 $Comp
 L +8V #PWR033
 U 1 1 5C2803CB
-P 1800 2200
-F 0 "#PWR033" H 1800 2050 50  0001 C CNN
-F 1 "+8V" H 1900 2300 50  0000 C CNN
-F 2 "" H 1800 2200 50  0001 C CNN
-F 3 "" H 1800 2200 50  0001 C CNN
-	1    1800 2200
+P 2400 2200
+F 0 "#PWR033" H 2400 2050 50  0001 C CNN
+F 1 "+8V" H 2500 2300 50  0000 C CNN
+F 2 "" H 2400 2200 50  0001 C CNN
+F 3 "" H 2400 2200 50  0001 C CNN
+	1    2400 2200
 	1    0    0    -1  
 $EndComp
 Connection ~ 2100 2400
 Wire Wire Line
-	2600 2000 2600 1600
+	2600 1600 2600 2000
 Wire Wire Line
 	2050 1600 2700 1600
 Connection ~ 2600 1600
@@ -265,24 +264,13 @@ Wire Wire Line
 Wire Wire Line
 	1500 3900 2600 3900
 Wire Wire Line
-	2600 3900 2600 3500
+	2600 3500 2600 3900
 Wire Wire Line
-	2600 3500 2050 3500
+	2050 3500 2600 3500
 Connection ~ 2500 3500
 Text GLabel 2150 3800 2    45   Input ~ 0
 ps2_att2
 Connection ~ 2050 3800
-$Comp
-L +8V #PWR036
-U 1 1 5C281018
-P 1800 4100
-F 0 "#PWR036" H 1800 3950 50  0001 C CNN
-F 1 "+8V" H 1815 4277 50  0000 C CNN
-F 2 "" H 1800 4100 50  0001 C CNN
-F 3 "" H 1800 4100 50  0001 C CNN
-	1    1800 4100
-	1    0    0    -1  
-$EndComp
 Text GLabel 1700 4300 2    45   Output ~ 0
 ps2_data
 Wire Wire Line
@@ -310,20 +298,33 @@ Wire Wire Line
 Wire Wire Line
 	2150 1500 2150 1600
 Connection ~ 2150 1600
-Text GLabel 5600 1450 1    45   Output ~ 0
-gpio2
-Wire Wire Line
-	5600 1550 5600 1450
-Connection ~ 5600 1550
-Wire Wire Line
-	5750 2050 5750 1950
-Text GLabel 5600 1950 1    45   Output ~ 0
+Text GLabel 5750 1550 0    45   Output ~ 0
+gpio3
+Text GLabel 5750 1950 0    45   Output ~ 0
 gpio1
 Wire Wire Line
-	5600 1950 5600 2050
-Connection ~ 5600 2050
+	5750 1550 6050 1550
+$Comp
+L R_Small R28
+U 1 1 5C7E18F5
+P 2100 2200
+F 0 "R28" V 2200 2200 50  0000 C CNN
+F 1 "0" V 2100 2200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" H 2100 2200 50  0001 C CNN
+F 3 "" H 2100 2200 50  0001 C CNN
+	1    2100 2200
+	0    -1   -1   0   
+$EndComp
 Wire Wire Line
-	5600 1550 6050 1550
+	2200 2200 2400 2200
+Text Label 1650 4100 0    60   ~ 0
+rumble
+Text Label 1650 2200 0    60   ~ 0
+rumble
 Wire Wire Line
-	5600 2050 5750 2050
+	6050 1750 5750 1750
+Text Label 5750 1550 0    60   ~ 0
+gpio3
+Text GLabel 5750 1750 0    45   Output ~ 0
+gpio2
 $EndSCHEMATC

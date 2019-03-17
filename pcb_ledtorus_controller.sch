@@ -877,7 +877,6 @@ Wire Wire Line
 	2150 3050 2150 3250
 NoConn ~ 1800 2550
 NoConn ~ 1800 2500
-NoConn ~ 1800 2200
 NoConn ~ 2650 2500
 NoConn ~ 2650 2200
 NoConn ~ 2650 2150
@@ -897,7 +896,7 @@ Wire Wire Line
 Wire Wire Line
 	1500 1800 1300 1800
 Text GLabel 1300 1900 0    45   Input ~ 0
-gpio2
+gpio3
 Wire Wire Line
 	1300 1900 1450 1900
 Wire Wire Line
@@ -1021,4 +1020,8 @@ F 3 "" H 7750 5750 60  0000 C CNN
 	1    7750 5750
 	1    0    0    -1  
 $EndComp
+Text GLabel 1700 2200 0    45   Input ~ 0
+gpio2
+Wire Wire Line
+	1700 2200 1800 2200
 $EndSCHEMATC
