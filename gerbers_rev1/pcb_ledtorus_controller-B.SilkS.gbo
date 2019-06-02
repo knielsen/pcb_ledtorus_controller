@@ -1,0 +1,15 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-08-04 revision 7bf9f8e1c)-master*
+G04 #@! TF.CreationDate,2019-03-18T20:52:30+01:00*
+G04 #@! TF.ProjectId,pcb_ledtorus_controller,7063625F6C6564746F7275735F636F6E,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Legend,Bot*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW (2017-08-04 revision 7bf9f8e1c)-master) date Mon Mar 18 20:52:30 2019*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+M02*

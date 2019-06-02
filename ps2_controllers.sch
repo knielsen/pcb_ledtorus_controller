@@ -250,7 +250,7 @@ F 3 "" H 2400 2200 50  0001 C CNN
 $EndComp
 Connection ~ 2100 2400
 Wire Wire Line
-	2600 1600 2600 2000
+	2600 2000 2600 1600
 Wire Wire Line
 	2050 1600 2700 1600
 Connection ~ 2600 1600
@@ -264,9 +264,9 @@ Wire Wire Line
 Wire Wire Line
 	1500 3900 2600 3900
 Wire Wire Line
-	2600 3500 2600 3900
+	2600 3900 2600 3500
 Wire Wire Line
-	2050 3500 2600 3500
+	2600 3500 2050 3500
 Connection ~ 2500 3500
 Text GLabel 2150 3800 2    45   Input ~ 0
 ps2_att2
